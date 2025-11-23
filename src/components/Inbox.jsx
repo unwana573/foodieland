@@ -17,7 +17,7 @@ function Inbox() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-16">
+    <div className="min-h-screen flex items-center justify-center px-4">
       <div className="w-full max-w-5xl">
         <div className="bg-blue-100 rounded-[3rem] p-12 md:p-16 relative overflow-hidden">
 
