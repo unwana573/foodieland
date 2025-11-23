@@ -84,7 +84,7 @@ function Page() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white text-left">
       <div className="max-w-7xl mx-auto px-4 py-16">
 
         <div className="text-center mb-12">
@@ -92,7 +92,6 @@ function Page() {
           <p className="text-gray-500 mb-8">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           </p>
-
 
           <div className="max-w-2xl mx-auto relative">
             <input
@@ -108,13 +107,12 @@ function Page() {
           </div>
         </div>
 
-
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
           <div className="lg:col-span-2 space-y-8">
             {blogPosts.map((post) => (
-              <div key={post.id} className="flex gap-6 group cursor-pointer">
-                <div className="flex-shrink-0 w-48 h-36 rounded-3xl overflow-hidden">
+              <div key={post.id} className="flex flex-col sm:flex-row gap-6 group cursor-pointer">
+                <div className="flex-shrink-0 w-full sm:w-48 h-48 sm:h-36 rounded-3xl overflow-hidden">
                   <img
                     src={post.image}
                     alt={post.title}
@@ -145,7 +143,6 @@ function Page() {
             ))}
           </div>
 
-
           <div className="space-y-8">
 
             <div>
@@ -171,7 +168,6 @@ function Page() {
               </div>
             </div>
 
-
             <div className="bg-gradient-to-br from-teal-700 to-teal-600  p-8 text-white text-center">
               <p className="text-2xl font-bold mb-6 italic">
                 Don't forget to eat<br />healthy food
@@ -187,7 +183,6 @@ function Page() {
             </div>
           </div>
         </div>
-
 
         <div className="flex justify-center items-center gap-2 mt-12">
           <button

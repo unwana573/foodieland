@@ -6,9 +6,9 @@ function Article() {
     <div className="min-h-screen bg-white py-12 px-4 text-left">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main Content - Left Side */}
+
           <div className="lg:col-span-2 space-y-10">
-            {/* Question 1 */}
+
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-4">
                 How did you start out in the food industry?
@@ -18,7 +18,7 @@ function Article() {
               </p>
             </div>
 
-            {/* Question 2 */}
+
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-4">
                 What do you like most about your job?
@@ -28,7 +28,7 @@ function Article() {
               </p>
             </div>
 
-            {/* Question 3 with Image */}
+
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-6">
                 Do you cook at home on your days off?
@@ -45,7 +45,7 @@ function Article() {
               </p>
             </div>
 
-            {/* Question 4 */}
+
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-4">
                 What would your advice be to young people looking to get their foot in the door?
@@ -55,14 +55,14 @@ function Article() {
               </p>
             </div>
 
-            {/* Quote Block */}
+
             <div className="border-l-4 border-gray-900 pl-6 py-4 my-12">
               <p className="text-2xl md:text-3xl italic text-gray-900 leading-relaxed">
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio."
               </p>
             </div>
 
-            {/* Question 5 */}
+
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-4">
                 What is the biggest misconception that people have about being a professional chef?
@@ -73,25 +73,29 @@ function Article() {
             </div>
           </div>
 
-          {/* Sidebar - Right Side */}
+
           <div className="lg:col-span-1">
             <div className="sticky top-8">
               <h3 className="text-xs font-bold text-gray-900 mb-6 uppercase tracking-wider">
                 Share This On
               </h3>
-              <div className="flex flex-col gap-4">
+
+              <div className="flex flex-row gap-4 md:flex-col">
                 <button className="w-11 h-11 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 hover:border-gray-400 transition">
                   <Facebook size={20} className="text-gray-700" />
                 </button>
+
                 <button className="w-11 h-11 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 hover:border-gray-400 transition">
                   <Twitter size={20} className="text-gray-700" />
                 </button>
+
                 <button className="w-11 h-11 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 hover:border-gray-400 transition">
                   <Instagram size={20} className="text-gray-700" />
                 </button>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
